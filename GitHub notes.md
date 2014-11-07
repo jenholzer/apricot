@@ -2,6 +2,8 @@
 # Mike's GitHub notes 
 ## Learning GitHub & Markdown 
 
+Let's see if ***these*** changes show up :)
+
 **Resources I'm using**
 - [ReadWrite tutorial for GitHub](http://readwrite.com/2013/10/02/github-for-beginners-part-2) 
 - [Write with Markdown on Google Drive](https://www.youtube.com/watch?v=VAx_Xf0KNfg)
