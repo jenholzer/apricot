@@ -7,22 +7,22 @@ You can query the Neura API to pull information about a user.  All requests for 
     Authorization: Bearer asdf1234*****************
 
 ###Neura API calls
-**`daily_summary`** gives the user’s wellness information on the day you specify with the `date` parameter.  
 
-- `daily_summary` values are calculated using the data currently available to Neura.  Consequently, `daily_summary` values can change as the user syncs their devices and updates their dataset. 
-- `daily_summary` is only available for complete days and not for the current day.
+**The `daily_summary` request**
+You can use the `daily_summary` request to get a user’s wellness information for a single day.  
 
-**Parameters**
-**`date`**  You request data for this day in the format YYYY-MM-DD
-**`source`** Use `source` to specify when you want user data from a single partner device.  As of October 2014, this parameter is only available for the Neurosky data partner via ````source = neurosky````. 
+- Neura calculates values for `daily_summary` using the current dataset for the user. However,  values may change as the user syncs their devices with Neura, which may update their dataset. 
+- `daily_summary` is not available for the current day; it is only available for previous days.
 
+**Request parameters**
+   URI https://wapi.theneura.com/v1/users/profile/daily_summary
+**`date`**  The specific day, in YYYY-MM-DD format, for which you want information. 
+**`source`** The specific partner device for which you want information.  As of October 2014, this parameter is only available for the Neurosky device, `source = neurosky`. 
 
 **Permission** ```dailyActivitySummary```
 
-   URI https://wapi.theneura.com/v1/users/profile/daily_summary
-
 **Example request**
-In this example `daily_summary` call, the client is requesting data from September 30th, 2014 for the user with access token  `asdf1234**************************`.
+In this example `daily_summary`, the client is requesting data from September 30th, 2014 for the user with access token  `asdf1234*****************`.
 
 
     GET /v1/users/profile/daily_summary?date=2014-09-30 HTTP/1.1
