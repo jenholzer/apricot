@@ -8,7 +8,7 @@ You can query the Neura API to pull information about a user.  All requests for 
 
 ###Neura API calls
 
-**The `daily_summary` request**
+##The `daily_summary` request
 You can use the `daily_summary` request to get a user’s wellness information for a single day.  
 
 - Neura calculates values for `daily_summary` using the current dataset for the user. However,  values may change as the user syncs their devices with Neura, which may update their dataset. 
@@ -32,7 +32,7 @@ In this example `daily_summary`, the client is requesting data from September 30
 
 
 
-###Response
+###The `daily_summary` response
 **status**	
 Neura returns whether your API call was a ````success```` or ````error```` 
 
