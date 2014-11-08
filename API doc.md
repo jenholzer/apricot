@@ -1,37 +1,34 @@
 
-
+###Welcome to the Neura API
 **Interacting with the Neura API**
-You can query the Neura API to pull information about a user.  All requests for user data must include a header with an authorization parameter 
+You can query the Neura API to pull information about a user.  All requests for user data must include an authorization header with the value containing the user's access token:
 
-It is synchronous API call request. In its header, Authorization parameter must be bearer type a user’s access token.  Neura verifies if a user has accepted the permissions per service.
+    Authorization: Bearer asdf1234*****************
 
+###Neura API calls
+**`daily_summary`** gives the user’s wellness information on the day you specify with the `date` parameter.  
 
+- `daily_summary` values are calculated using the data currently available to Neura.  Consequently, `daily_summary` values can change as the user syncs their devices and updates their dataset. 
+- `daily_summary` is only available for complete days and not for the current day.
 
-Service: **Daily Summary**
-
-`daily_summary` gives the user’s wellness information on the day you specify. The daily summary is not available for the current day, only previous days for which the user provided data to Neura.  Neura calculates the daily summary based on the data currently available; however, the values in the daily summary can change as the user syncs their device with Neura.  
+**Parameters**
+**`date`**  You request data for this day in the format YYYY-MM-DD
+**`source`** Use `source` to specify when you want user data from a single partner device.  As of October 2014, this parameter is only available for the Neurosky data partner via ````source = neurosky````. 
 
 
 **Permission** ```dailyActivitySummary```
 
-    GET https://wapi.theneura.com/v1/users/profile/daily_summary
+   URI https://wapi.theneura.com/v1/users/profile/daily_summary
 
-Example
+**Example request**
+In this example `daily_summary` call, the client is requesting data from September 30th, 2014 for the user with access token  `asdf1234**************************`.
+
+
     GET /v1/users/profile/daily_summary?date=2014-09-30 HTTP/1.1
-
     Host: wapi.theneura.com
-    Authorization: Bearer asdf1234******************************************
+    Authorization: Bearer asdf1234**************************
     Cache-Control: no-cache
 
-**Parameters for daily_summary**
-
-
-###Parameters
-**date** 
-You request data for this day in the format YYYY-MM-DD
-
-**source**
-Use ````source```` to specify when you want user data from a single partner device.  As of October 2014, this parameter is only available for the Neurosky data partner via ````source = neurosky````. 
 
 
 ###Response
