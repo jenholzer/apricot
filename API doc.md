@@ -1,6 +1,7 @@
 
 ###Welcome to the Neura API
 **Interacting with the Neura API**
+
 You can query the Neura API to pull information about a user.  All requests for user data must include an authorization header with the value containing the user's access token:
 
     Authorization: Bearer asdf1234*****************
