@@ -27,7 +27,7 @@ You can use the `daily_summary` request to get a user’s wellness information f
 In this example `daily_summary`, the client is requesting data from September 30th, 2014 for the user with access token  `asdf1234*****************`.
 
 
-    GET /v1/users/profile/daily_summary?date=2014-09-30 HTTPS/1.1
+    GET /v1/users/profile/daily_summary?date=2014-09-30 HTTP/1.1
     Host: wapi.theneura.com
     Authorization: Bearer asdf1234**************************
     Cache-Control: no-cache
