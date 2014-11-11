@@ -75,3 +75,41 @@ Neura returns a snake_case string representing the error code.
 
 ** errors > message **
 Neura returns a human-readable message describing the cause of the error.
+
+-------
+
+**Mike is picking up here**
+
+##Build with Neura
+We're excited for you to join the community of Builders that are using Neura to enhance their apps and internet-of-things (IoT) devices.  This guide includes a Quickstart project to quickly get you test-driving the Neura API.  We also provide instructions to fully benefit from Neura, including details for using the Neura API and integrating the Neura SDK with your app. 
+
+ - Quickstart with Neura
+ - The Neura API
+ - The Neura SDK for Android
+ - The Neura SDK for iOS
+
+###Quickstart project
+This 10-minute project will allow you to use Neura's `daily_summary` API call to get basic wellness information for our teammate Betty **(Gili - delete PII)** who generated a test dataset   This project should take you less than 10 minutes.
+
+####Quickstart project instructions:
+  1. Install Postman for Chrome (or use your favorite REST client packaged app) **put in Postman link here**  If you're having trouble with Postman, here's a good tutorial for reference. **youtube link**
+  2. Select a 'Normal' `Get` request
+  3. Under `Request URL` enter https://wapi.theneura.com/v1/users/profile/daily_summary 
+  4. Under `URL Parameter Key` enter `date`
+  5. Under `URL Parameter Value` enter `2014-07-04`
+  6. Under `Header` enter `Authorization`
+  7. Under  `Header Value` enter **`Bearer asdf1234********`(update)**
+  8. Send the `Get` request
+  9. Check out the JSON response to see Betty's wellness information on July 4th, 2014.  To better understand the response, please see `daily_summary` in the **Neura API documentation (include link)**.
+  10. You can play with the `date` value to see variations in Betty's dataset. Note that the dataset is only available from June to August 2014 (from `2014-06-01` to `2014-08-31`**define limits**). 
+ 
+####Examine your own data with the Quickstart project
+You can examine your data by getting your unique `Authorization Key`**Is that what it's called?** from Neura for the `daily_summary` call.  
+
+  1.  Download the Neura app on your Android or iOS mobile phone. **include app & play store links** 
+  2. Email build@theneura.com to request an access code to complete installation of the app.  In the email, please be sure to note that you're a Builder working on a Quickstart project.  
+  3. Neura will respond with your `Authorization Key`.
+  4. Have fun playing around with your data. We hope it gives you a small taste of the power of Neura and motivates you to integrate your apps and IoT devices with Neura.
+
+###Integrate Neura with your app
+
