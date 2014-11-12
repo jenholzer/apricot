@@ -103,7 +103,7 @@ This 10-minute project will allow you to use Neura's `daily_summary` API call to
   9. Check out the JSON response to see Betty's wellness information on July 4th, 2014.  To better understand the response, please see `daily_summary` in the **Neura API documentation (include link)**.
   10. You can play with the `date` value to see variations in Betty's dataset. Note that the dataset is only available from June to August 2014 (from `2014-06-01` to `2014-08-31`**define limits**). 
 
-**show sample output HERE. thanks Adi!** 
+**show sample output here in JSON. thanks Adi!** 
 
 ####Examine your own data with the Quickstart project
 You can examine your data by getting your unique `Authorization Key`**Is that what it's called?** from Neura for the `daily_summary` call.  
