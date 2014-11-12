@@ -87,6 +87,7 @@ We're excited for you to join the community of Builders that are using Neura to 
  - The Neura API
  - The Neura SDK for Android
  - The Neura SDK for iOS
+ - Permissions (move from http://dev.neura.me/#/docs)
 
 ###Quickstart project
 This 10-minute project will allow you to use Neura's `daily_summary` API call to get basic wellness information for our teammate Betty **(Gili - delete PII)** who generated a test dataset   This project should take you less than 10 minutes.
