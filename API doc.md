@@ -22,7 +22,7 @@ Get's a user’s wellness information for a single day. Requires a **Bearer** au
 
 ### Resource URI
 
-**https://wapi.theneura.com/v1/users/profile/daily_summary**
+**`https://wapi.theneura.com/v1/users/profile/daily_summary`**
 
 ### Query Parameters
 
