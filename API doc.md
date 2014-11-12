@@ -36,7 +36,7 @@ Get's a user’s wellness information for a single day. Requires a **Bearer** au
 
 #### Required
 
-- authorization: Bearer authorization token
+- `authorization`: Bearer authorization token
 
 #### Optional
 
