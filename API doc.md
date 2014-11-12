@@ -105,6 +105,27 @@ This 10-minute project will allow you to use Neura's `daily_summary` API call to
 
 **show sample output here in JSON. thanks Adi!** 
 
+    {
+    "status": "success",
+    "timestamp": 1415768620,
+    "data": {
+    "date": 20141108,
+    "createdAt": "2014-11-10T12:34:01Z",
+    "minutesWalk": 169,
+    "calories": 2471.0398383140564,
+    "steps": 19665,
+    "heartRate": 0,
+    "weight": 0,
+    "workDay": 0,
+    "sleepData": {
+    "length": 290,
+    "deepSleep": 0,
+    "lightSleep": 0
+    },
+    "activityPlaces": [ ]
+    }
+    }
+
 ####Examine your own data with the Quickstart project
 You can examine your data by getting your unique `Authorization Key`**Is that what it's called?** from Neura for the `daily_summary` call.  
 
