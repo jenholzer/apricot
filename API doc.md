@@ -25,14 +25,21 @@ Get's a user’s wellness information for a single day. Requires a **Bearer** au
 **https://wapi.theneura.com/v1/users/profile/daily_summary**
 
 ### Query Parameters
+
 #### Required
 - date: Date of the summary to retrieve in YYYY-MM-DD format
+
 #### Optional
 - source: The source device to retrieve data for. For example, if Neurosky device data is requested then this parameter should be set to "Neurosky".
+
 ### Headers
+
 #### Required
+
 - authorization: Bearer authorization token
+
 #### Optional
+
 - Cache-Control: Specifies if the server should circumvent the server cache
 
 ### Example Request
@@ -44,6 +51,7 @@ Cache-Control: no-cache
 ```
 
 ### Example Response
+
 #### Headers
 ```http
 status: 200 OK
