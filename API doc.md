@@ -26,7 +26,6 @@ You can use the `daily_summary` request to get a user’s wellness information f
 **Example request**
 In this example `daily_summary`, the client is requesting data from September 30th, 2014 for the user with access token  `asdf1234*****************`.
 
-
     GET /v1/users/profile/daily_summary?date=2014-09-30 HTTP/1.1
     Host: wapi.theneura.com
     Authorization: Bearer asdf1234**************************
@@ -106,6 +105,7 @@ This 10-minute project will allow you to use Neura's `daily_summary` API call to
 
 **show sample output here in JSON. thanks Adi!** 
 
+```json
     {
     "status": "success",
     "timestamp": 1415768620,
@@ -126,7 +126,7 @@ This 10-minute project will allow you to use Neura's `daily_summary` API call to
     "activityPlaces": [ ]
     }
     }
-
+```
 ####Examine your own data with the Quickstart project
 You can examine your data by getting your unique `Authorization Key`**Is that what it's called?** from Neura for the `daily_summary` call.  
 
