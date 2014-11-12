@@ -35,8 +35,7 @@ Get's a user’s wellness information for a single day. Requires a **Bearer** au
 #### Optional
 - Cache-Control: Specifies if the server should circumvent the server cache
 
-
- ### Example Request
+### Example Request
 
 ```http
 GET https://wapi.theneura.com/v1/users/profile/daily_summary?date=2014-09-30
