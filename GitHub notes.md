@@ -15,5 +15,13 @@ Let's see if ***these*** changes show up :)
 
 ----------
 
+**git commands**
+git status
+git add
+git commit
+git push
+git pull
 
-> Written with [StackEdit](https://stackedit.io/).
+
+
+
