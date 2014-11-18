@@ -22,6 +22,34 @@ Let's see if ***these*** changes show up :)
   - git push
   - git pull
 
+----------------
+
+
+**Mike took 'data objects' from Automatic. What do Fitbit, Jawbone, & Nest say? let's benchmark with them. Keep it simple.**
+
+  - Specify read-only. Jawbone & Fitbit are read & write.
+  - Specify JSON response only. Fitbit does JSON & XML.
+  - 
+
+**Jawbone** 
+
+  - [pull data](https://jawbone.com/up/developer/structure) contains data (common objects & collections) and metadata (info related to the request itself)
+  - [push notifications](https://jawbone.com/up/developer/pubsub) are "pub sub"
+    - **Berman**, is there a different between a "callback" and a "push event"? 
+  - [jawbone oauth diagram](https://jawbone.com/up/developer/authentication)
+
+**Fitbit**
+
+  - [pull Resources](https://wiki.fitbit.com/display/API/Fitbit+Resource+Access+API)
+  - [push Subscriptions](https://wiki.fitbit.com/display/API/Fitbit+Subscriptions+API) "**subscribe** to any changes in a user's data." "notify via an HTTP callback"
+  - [fitbit oath diagram](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
+
+**Nest**
+
+  - [subscriptions](https://developer.nest.com/documentation/cloud/nest-api-intro) that clients "listen" to for event changes
+  - they don't seem to have the ability to pull datasets   
+  - [Nest's oauth diagram](https://developer.nest.com/documentation/cloud/authorization-overview)
+
 
 
 
