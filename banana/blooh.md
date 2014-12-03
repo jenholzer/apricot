@@ -10,6 +10,9 @@ This is the markdown pane
 
 another good thing is `command`'s 
 
+does this thing autosave
+or am I playing with *fire*?
+
 ----------
 
 
