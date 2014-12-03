@@ -2,6 +2,25 @@
 # Mike's GitHub notes 
 ## Learning GitHub & Markdown 
 
+
+ - here's an attempt at a list!
+ - and it seems to be working!
+ - yppie!
+ - now, can i indent?
+	 - 	we'll see  
+ - what about now?
+ - ok. it kinda owrks.
+	 - not perfect	
+	 - but not that bad either
+	 - hmm i wonder 
+ - we'll see
+ - ok.
+ - i think this'll do.
+ - MacDown!
+
+
+
+
 Let's see if ***these*** changes show up :)
 
 **Resources I'm using**
