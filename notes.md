@@ -29,8 +29,15 @@ Let's see if ***these*** changes show up :)
 - [SatckEdit on GitHub](https://github.com/benweet/stackedit)
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet),  [Markdown basics](https://help.github.com/articles/markdown-basics/) and [GitHub Flavored Markdown (GFM)](https://help.github.com/articles/github-flavored-markdown/)
 - [GitHub code school](https://try.github.io/levels/1) 
-- [Git
-- sdf 
+- we made iOS based on https://developers.facebook.com/docs/ios?locale=es_ES
+- reference scheme url https://developers.facebook.com/docs/ios/getting-started?locale=es_ES
+- learn iOS xcode https://www.youtube.com/watch?v=ZqKbN_C4Yvg
+- download videos http://rg3.github.io/youtube-dl/download.html
+- use `screen` to download without interruption http://stackoverflow.com/questions/11807688/how-to-detach-a-process-from-terminal-in-unix
+- temporary email https://mailinator.com/
+
+
+
 
 ----------
 
@@ -68,6 +75,9 @@ Let's see if ***these*** changes show up :)
   - [subscriptions](https://developer.nest.com/documentation/cloud/nest-api-intro) that clients "listen" to for event changes
   - they don't seem to have the ability to pull datasets   
   - [Nest's oauth diagram](https://developer.nest.com/documentation/cloud/authorization-overview)
+
+**Automatic**  
+  - docs: https://www.automatic.com/developer/documentation/  
 
 
 
